@@ -93,7 +93,7 @@ const Navbar = () => {
       <div className="flex items-center gap-4 md:gap-5">
         {/* right site button */}
         {!user ? (
-          <Link to={""}>
+          <Link to={"login"}>
             <button className="bg-[#3c65f5] hover:bg-[#05264e] py-2 lg:py-2.5 2xl:py-3 px-6 md:px-7 lg:px-8 2xl:px-10 text-[#ffffff] rounded-lg duration-500 active:scale-110">
               Sign in
             </button>
