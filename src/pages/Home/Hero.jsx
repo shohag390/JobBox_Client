@@ -38,7 +38,7 @@ const Hero = () => {
       {/* Left Side */}
       <div className="w-full lg:w-1/2">
         <h1 className="pb-2 md:pb-3 lg:pb-4 2xl:pb-5 text-[#05264e] text-[30px] md:text-[40px] lg:text-[45px] 2xl:text-[50px] font-medium lg:font-semibold 2xl:font-bold">
-          Find Jobs, Hire Creatives
+          Find Jobs, Hire Creatives.
         </h1>
         <p className="text-[14px] md:text-[16px] lg:text-[18px] text-[#4f5e64] text-justify">
           Each month, more than 3 million job seekers turn to website in their

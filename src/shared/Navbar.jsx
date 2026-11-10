@@ -1,7 +1,8 @@
-import { useEffect, useState } from "react";
+import { use, useEffect, useState } from "react";
 import logo from "../assets/images/jobhub-logo.svg";
 import { Link, NavLink } from "react-router";
 import { IoClose, IoMenu } from "react-icons/io5";
+import { AuthContext } from "../context/AuthContext/AuthContext";
 
 const navItme = [
   {
@@ -28,8 +29,9 @@ const navItme = [
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
-  const [user, setUser] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const { user } = use(AuthContext);
+  console.log(user);
 
   useEffect(() => {
     const handleScroll = () => {
